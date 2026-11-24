@@ -1,24 +1,34 @@
-# React + Vite
+# nassauTickets
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema de Controle de Atendimento para um Laboratório de Análises Clínicas, desenvolvido para gerenciar emissão, fila de priorização, chamada e atendimento de senhas.
 
-Currently, two official plugins are available:
+## Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Consolidar práticas de desenvolvimento Web, organização de projeto, versionamento com Git/GitHub, documentação técnica, React no frontend e regras de negócio de atendimento em fila com priorização, auditoria e relatórios.
 
 ## Membros
 
 | Nome | Matrícula | Papel |
-|-------------------------|-----------|------------------|
-| João Fernando | 000000 | Scrum Master |
-| Rodrigo Lucas Ferreira | 01811731 | Desenvolvedor |
-| Isabelle Amorim Rodrigues | 01796342 | Testador |
+| :--- | :--- | :--- |
+| Isabelle Amorim Rodrigues | 01796342 | Scrum Master / Desenvolvedor |
+
+## Tecnologias Utilizadas
+
+* **Frontend:** React (em `frontend/`)
+* **Backend:** A definir/justificar entre Node.js LTS 22 com Express, Java 21 com Spring Boot ou Python 3.14 com Flask/FastAPI
+* **Banco de Dados:** MySQL 8.0
+
+## Arquitetura e Estrutura do Repositório
+
+* `backend/`: API, regras de fila/prioridade, máquina de estados, concorrência e relatórios
+* `docs/`: documentação do projeto (`branding`, `mer`, `mockups`, `models/uml`, `requirements`)
+* `frontend/`: aplicação web em React (totem, painel de chamadas, atendimento e gestão)
+
+## Configuração, Instalação e Execução
+
+As instruções detalhadas de variáveis de ambiente, instalação de dependências e execução local de `backend/` e `frontend/` serão atualizadas conforme cada módulo for implementado.
+
+## Branches e Fluxo de Trabalho
+
+* `main`: branch principal com versões consolidadas via *merge*.
+* `dev`: branch de desenvolvimento onde os commits são enviados antes do *merge* para `main`.
